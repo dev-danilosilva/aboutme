@@ -5153,7 +5153,7 @@ var $author$project$Main$Location = F2(
 		return {city: city, country: country};
 	});
 var $author$project$Main$ProfessionalXp = {$: 'ProfessionalXp'};
-var $author$project$Main$disclaimerText = 'Data Mining Tools, Web User Interfaces, Pure Functional Programming Techniques is some of the things that I am engaged. Play piano and run is some of my hobbies...';
+var $author$project$Main$disclaimerText = 'Data Mining Tools, Web User Interfaces, Pure Functional Programming Techniques is some of\n    the things that I am engaged. Play piano and run is some of my hobbies...';
 var $author$project$Main$greetingText = 'Hello World , I am';
 var $elm$core$Platform$Cmd$batch = _Platform_batch;
 var $elm$core$Platform$Cmd$none = $elm$core$Platform$Cmd$batch(_List_Nil);
@@ -5196,7 +5196,7 @@ var $author$project$Main$PostgresSqlIcon = {$: 'PostgresSqlIcon'};
 var $author$project$Main$PythonIcon = {$: 'PythonIcon'};
 var $author$project$Main$TypescriptIcon = {$: 'TypescriptIcon'};
 var $author$project$Main$VueJsIcon = {$: 'VueJsIcon'};
-var $author$project$Main$aboutMeBody = 'My name is Danilo Silva, I\'m from Sao Paulo, Brazil and work as a Software Developer. Today I\'m putting a lot of work understanding the behind the scenes of functional paradigm through lambda calculus and Category Theory. Love to build reliable systems using Haskell as the main tool.';
+var $author$project$Main$aboutMeBody = 'My name is Danilo Silva, I\'m from Sao Paulo, Brazil and work as a Software Developer. Today I\'m\n    putting a lot of work understanding the behind the scenes of functional paradigm through lambda\n    calculus and Category Theory. Love to build reliable systems using Haskell as the main tool.';
 var $elm$json$Json$Encode$string = _Json_wrap;
 var $elm$html$Html$Attributes$stringProperty = F2(
 	function (key, string) {
@@ -5467,8 +5467,7 @@ var $author$project$Main$aboutSectionView = function (model) {
 };
 var $author$project$Main$professionalExp = _List_fromArray(
 	[
-		{company: 'NoRedInk', description: 'Fullstack Developement (Haskell and Elm)', period: 'Feb/2021 - Current', position: 'Software Development'},
-		{company: 'Ether_City', description: 'Fullstack Development', period: 'Mar/2020 - Feb/2021', position: 'Software Developer'},
+		{company: 'Ether_City', description: 'Fullstack Development', period: 'Mar/2020 - Actual', position: 'Software Developer'},
 		{company: 'DP6', description: 'Back-End Development', period: 'Sep/2019 - March/2020', position: 'Web Analytics Developer'},
 		{company: 'Let\'s Code', description: 'Fullstack Development', period: 'Dez/2018 - Sep/2019', position: 'Software Development Instructor'}
 	]);
