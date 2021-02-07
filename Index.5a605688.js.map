@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/Index.js"],"names":["app","Elm","Main","init"],"mappings":";;;AAQA,aARA,IAAA,EAAA,QAAA,kBAEMA,EAAMC,EAAIC,IAAAA,KAIhBF,EAAIG,KAAK","file":"Index.5a605688.js","sourceRoot":"../public","sourcesContent":["import { Elm } from './elm/Main.elm';\n\nconst app = Elm.Main\n\n// Application Initialization\n\napp.init({});\n\n// Application Ports\n"]}
